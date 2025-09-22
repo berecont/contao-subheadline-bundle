@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+  <file source-language="en" datatype="plaintext" original="tl_content">
+    <body>
+
+      <!-- Field: subheadline -->
+      <trans-unit id="tl_content.subheadline.0">
+        <source>Subheadline</source>
+      </trans-unit>
+      <trans-unit id="tl_content.subheadline.1">
+        <source>Enter the subheadline. HTML tags are allowed.</source>
+      </trans-unit>
+
+      <!-- Field: subheadline_position (select) -->
+      <trans-unit id="tl_content.subheadline_position.0">
+        <source>Subheadline position</source>
+      </trans-unit>
+      <trans-unit id="tl_content.subheadline_position.1">
+        <source>Choose whether the subheadline is rendered above or below the main headline.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.subheadline_position.oben">
+        <source>Above</source>
+      </trans-unit>
+      <trans-unit id="tl_content.subheadline_position.unten">
+        <source>Below</source>
+      </trans-unit>
+
+      <!-- Alternative field variant: subheadline_below (checkbox) -->
+      <trans-unit id="tl_content.subheadline_below.0">
+        <source>Place below</source>
+      </trans-unit>
+      <trans-unit id="tl_content.subheadline_below.1">
+        <source>Enable to render the subheadline below the main headline.</source>
+      </trans-unit>
+
+      <!-- Field: subheadline_decorative -->
+      <trans-unit id="tl_content.subheadline_decorative.0">
+        <source>Use subheadline as decorative only</source>
+      </trans-unit>
+      <trans-unit id="tl_content.subheadline_decorative.1">
+        <source>If enabled, a decorative wrapper will be added in the frontend.</source>
+      </trans-unit>
+
+      <!-- Optional hints for headline fields (use core labels as baseline) -->
+      <trans-unit id="tl_content.headline.0">
+        <source>Headline</source>
+      </trans-unit>
+      <trans-unit id="tl_content.headline.1">
+        <source>Here you can add a headline. HTML tags are allowed.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.hl.0">
+        <source>Headline level</source>
+      </trans-unit>
+      <trans-unit id="tl_content.hl.1">
+        <source>Select the semantic level (h1–h6).</source>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

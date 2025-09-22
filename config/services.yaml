@@ -1,0 +1,11 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+  Berecont\ContaoSubheadlineBundle\:
+    resource: ../src
+
+  Berecont\ContaoSubheadlineBundle\Controller\ContentElement\SubheadlineController:
+      tags:
+        - { name: contao.content_element, category: 'texts', type: 'subheadline', template: 'content_element/subheadline' }

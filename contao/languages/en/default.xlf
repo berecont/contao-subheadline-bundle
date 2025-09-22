@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+  <file source-language="en" datatype="plaintext" original="default">
+    <body>
+      <trans-unit id="CTE.subheadline.0">
+        <source>Extended headline</source>
+      </trans-unit>
+      <trans-unit id="CTE.subheadline.1">
+        <source>Headline with subheadline.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

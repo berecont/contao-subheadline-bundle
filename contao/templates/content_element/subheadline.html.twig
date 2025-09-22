@@ -1,0 +1,38 @@
+{# /contao/templates/content_element/subheadline.html.twig #}
+{% extends "@Contao/content_element/_base.html.twig" %}
+{% use "@Contao/component/_headline.html.twig" %}
+
+{# Nur den Inner-Block des <hX> anreichern, wenn NICHT dekorativ #}
+{% block headline_inner %}
+  {% if not subheadline_decorative and subheadline and subheadline_position == 'oben' %}
+    <span class="subheadline sub-above">{{ subheadline|raw }}</span>
+  {% endif %}
+
+  {{ headline.text|insert_tag_raw }}
+
+  {% if not subheadline_decorative and subheadline and subheadline_position == 'unten' %}
+    <span class="subheadline sub-below">{{ subheadline|raw }}</span>
+  {% endif %}
+{% endblock %}
+
+{% block wrapper %}
+  {% if not subheadline_decorative %}
+    {% with { headline: headline|merge({attributes}) } %}
+      {{ block('headline_component') }}
+    {% endwith %}
+  {% else %}
+    <div class="content-subheadline-wrapper">
+      {% if subheadline and subheadline_position == 'oben' %}
+        <span class="subheadline sub-above">{{ subheadline|raw }}</span>
+      {% endif %}
+
+      {% with { headline: headline|merge({attributes}) } %}
+        {{ block('headline_component') }}
+      {% endwith %}
+
+      {% if subheadline and subheadline_position == 'unten' %}
+        <span class="subheadline sub-below">{{ subheadline|raw }}</span>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endblock %}

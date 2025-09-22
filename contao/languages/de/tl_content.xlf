@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+  <file source-language="de" datatype="plaintext" original="tl_content">
+    <body>
+
+      <!-- Feld: subheadline -->
+      <trans-unit id="tl_content.subheadline.0">
+        <source>Unterüberschrift</source>
+      </trans-unit>
+      <trans-unit id="tl_content.subheadline.1">
+        <source>Geben Sie die Unterüberschrift ein. HTML-Tags sind erlaubt.</source>
+      </trans-unit>
+
+      <!-- Feld: subheadline_position (Select) -->
+      <trans-unit id="tl_content.subheadline_position.0">
+        <source>Position der Unterüberschrift</source>
+      </trans-unit>
+      <trans-unit id="tl_content.subheadline_position.1">
+        <source>Bestimmen Sie, ob die Unterüberschrift oberhalb oder unterhalb der Hauptüberschrift ausgegeben wird.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.subheadline_position.oben">
+        <source>Oberhalb</source>
+      </trans-unit>
+      <trans-unit id="tl_content.subheadline_position.unten">
+        <source>Unterhalb</source>
+      </trans-unit>
+
+      <!-- Alternative Feldvariante: subheadline_below (Checkbox) -->
+      <trans-unit id="tl_content.subheadline_below.0">
+        <source>Unterhalb anordnen</source>
+      </trans-unit>
+      <trans-unit id="tl_content.subheadline_below.1">
+        <source>Aktivieren Sie diese Option, um die Unterüberschrift unterhalb der Hauptüberschrift auszugeben.</source>
+      </trans-unit>
+
+      <!-- Feld: subheadline_decorative -->
+      <trans-unit id="tl_content.subheadline_decorative.0">
+        <source>Unterüberschrift nur dekorativ</source>
+      </trans-unit>
+      <trans-unit id="tl_content.subheadline_decorative.1">
+        <source>Wenn aktiviert, wird im Frontend ein zusätzlicher dekorativer Wrapper ausgegeben.</source>
+      </trans-unit>
+
+      <!-- Hinweistexte für Headline-Felder (optional, nutzen Core-Beschriftungen) -->
+      <trans-unit id="tl_content.headline.0">
+        <source>Überschrift</source>
+      </trans-unit>
+      <trans-unit id="tl_content.headline.1">
+        <source>Hier können Sie eine Überschrift hinzufügen. HTML-Tags sind erlaubt.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.hl.0">
+        <source>Überschrift-Ebene</source>
+      </trans-unit>
+      <trans-unit id="tl_content.hl.1">
+        <source>Wählen Sie die semantische Ebene (h1–h6).</source>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>
