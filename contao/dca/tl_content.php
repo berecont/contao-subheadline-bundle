@@ -5,6 +5,8 @@ declare(strict_types=1);
 /*
  * DCA: tl_content – Subheadline (erweiterte Überschrift)
  */
+$GLOBALS['TL_DCA']['tl_content']['fields']['headline']['eval']['allowHtml'] = true;
+
 
 $GLOBALS['TL_DCA']['tl_content']['palettes']['subheadline'] =
     // Standard mit Select-Position

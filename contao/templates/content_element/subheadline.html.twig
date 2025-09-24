@@ -8,7 +8,7 @@
     <span class="subheadline sub-above">{{ subheadline|raw }}</span>
   {% endif %}
 
-  {{ headline.text|insert_tag_raw }}
+  {{ headline.text|insert_tag_raw|raw }}
 
   {% if not subheadline_decorative and subheadline and subheadline_position == 'unten' %}
     <span class="subheadline sub-below">{{ subheadline|raw }}</span>
